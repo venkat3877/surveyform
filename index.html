@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+    <style>
+ body {
+      margin: 0;
+      background-image: url("https://png.pngtree.com/back_origin_pic/03/91/31/216a8c258305188af56217c3b58b99c5.jpg");
+      background-size: cover;
+
+    }
+    #main {
+      padding: 50px 420px 50px 300px;
+      
+    }
+    #container {
+      background-color:cornsilk;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 10px;
+    }
+    h2{
+      text-align: center;
+      font-style: oblique;
+      font-size: 30px;    }
+
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="container">
+        <form>
+          <h2>Survey Form</h2>
+          <table>
+            <tr>
+              <td>
+                <label>Full Name:</label>
+              </td>
+              <td>
+                <input type="text" required placeholder="Enter full name" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label>Phone Number:</label>
+              </td>
+              <td>
+                <select>
+                    <option>+91</option>
+                    <option>+11</option>
+                    <option>+22</option>
+                  </select>
+                <input type="tel" required minlength="10" maxlength="10"  placeholder="Enter phone number"/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label>Gender:</label>
+              </td>
+              <td>
+                  
+                <input type="radio" name="gender" required />
+                <label>Male</label>
+                <input type="radio" name="gender" />
+                <label>Female</label>
+              </td>
+            </tr>
+            <tr>
+              <td><Label>Age:</Label></td>
+              <td>
+                <input type="radio" name="age" required>
+                <label>12-20</label>
+                <input type="radio" name="age">
+                <label>20-30</label>
+                <input type="radio" name="age">
+                <label>Above 30</label>
+              </td>
+            </tr>
+            <tr>
+              <td><label>Select the food:</label></td>
+              <td>
+                <input type="checkbox" required>
+                <label>Pizza</label>
+                <input type="checkbox">
+                <label>Burger</label>
+                <input type="checkbox">
+                <label>Frenchfries</label>
+              </td>
+              <tr>
+                <td><label>Quality of service:</label></td>
+                <td>
+                  <input type="radio" name="Service" required>
+                  <label>Excellent</label>
+                  <input type="radio" name="Service">
+                  <label>Verygood</label>
+                  <input type="radio" name="Service">
+                  <label>Good</label>
+                  <input type="radio" name="Service">
+                  <label>Ok</label>
+                  <input type="radio" name="Service">
+                  <label>Poor</label>
+                </td>
+              </tr>
+              <tr>
+                <td><label>Quality of food:</label></td>
+                <td>
+                  <input type="radio" name="Quality" required>
+                  <label>Excellent</label>
+                  <input type="radio" name="Quality">
+                  <label>Verygood</label>
+                  <input type="radio" name="Quality">
+                  <label>Good</label>
+                  <input type="radio" name="Quality">
+                  <label>Ok</label>
+                  <input type="radio" name="Quality">
+                  <label>Poor</label>
+                </td>
+              </tr>
+              <tr>
+                <td><label>Food portion:</label></td>
+                <td>
+                  <input type="radio" name="portion" required>
+                  <label>Excellent</label>
+                  <input type="radio" name="portion">
+                  <label>Verygood</label>
+                  <input type="radio" name="portion">
+                  <label>Good</label>
+                  <input type="radio" name="portion">
+                  <label>Ok</label>
+                  <input type="radio" name="portion">
+                  <label>Poor</label>
+                </td>
+              </tr>
+              <tr>
+                <td><label>Ambience:</label></td>
+                <td>
+                  <input type="radio" name="Ambience" required>
+                  <label>Excellent</label>
+                  <input type="radio" name="Ambience">
+                  <label>Verygood</label>
+                  <input type="radio" name="Ambience">
+                  <label>Good</label>
+                  <input type="radio" name="Ambience">
+                  <label>Ok</label>
+                  <input type="radio" name="Ambience">
+                  <label>Poor</label>
+                </td>
+              </tr>
+              <tr>
+                <td><label>Overall Experience:</label></td>
+                <td>
+                  <input type="radio" name="Overall" required>
+                  <label>Excellent</label>
+                  <input type="radio" name="Overall">
+                  <label>Verygood</label>
+                  <input type="radio" name="Overall">
+                  <label>Good</label>
+                  <input type="radio" name="Overall">
+                  <label>Ok</label>
+                  <input type="radio" name="Overall">
+                  <label>Poor</label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>Feedback or Any Suggestions:</label>
+                  </td>
+                    <td>
+                    <textarea cols="45" rows="5" required></textarea>
+                  </td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>
+                      <input type="reset">
+                      <input type="submit">
+                    </td>
+                  </tr>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
